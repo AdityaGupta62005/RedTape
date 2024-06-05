@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+  text-align :center;
+}
+.button 
+{
+  background-color: #7e2020; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 50px; 
+}
+
+.button1 {width: 250px;}
+</style>
+</head>
+<title>Register Account</title>
+<h1>Register Account</h1>
+<p>If you already have an account with us, please login at the login page.</p>
+<Form>
+<h2>Your Personal Details</h2>
+<label>Tags</label>
+<input type="text" id="tags" name="tags" placeholder="Tags"><br><br>
+<label>Source</label>
+<input type="text" id="Source" name="Source" placeholder="Source"><br><br>
+<label>OndcOrderId</label>
+<input type="text" id="OndcOrderId" name="OndcOrderId" placeholder="OndcOrderId"><br><br>
+<label>First Name : </label>
+<input type="text" id="Name" name="FName" placeholder="First Name" required><br><br>
+<label>Last Name : </label>
+<input type="text" id="LName" name="lname" required placeholder="Last Name"><br><br>
+<label>Telephone : </label>
+<input type="text" id="PN" name="PN" required placeholder="Telephone"><br><br>
+<label>E-Mail : </label>
+<input type="text" id="mail" name="mail" required placeholder="E-Mail"><br><br>
+<h2>Your Password </h2>
+<label>Password : </label>
+<input type="password" id="pwd" name="pwd" required placeholder="Password"><br><br>
+<label>Password Confirm: </label>
+<input type="password" id="pwd" name="pwd" required placeholder="Password Confirm"><br><br>
+<h2>Newsletter</h2>
+<label>Subscribe</label><br>
+<div class="control">
+    <label class="radio"> 
+        <input type="radio" name="answer"> Yes </label> 
+    <label class="radio"> 
+        <input type="radio" name="answer"> No </label> 
+</div><br>
+<input type="checkbox" name="Privacy Policy">
+<label for="Privacy Policy">I have read and agree to the Privacy Policy</label><br>
+<button style="color: white; background-color: brown;" class="button button1">Submit</button><br>
+</body>
+</html>
